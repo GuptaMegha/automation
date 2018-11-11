@@ -1,4 +1,4 @@
-# Test Automation Project using Cucumber Java
+# Test Automation Project using Cucumber Selenium Java
 
 Project is created for TNT, as test assignment.
 
