@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="42914e29-71fb-4339-ba15-a33b78c13358" name="Default Changelist" comment="" />
+    <list default="true" id="42914e29-71fb-4339-ba15-a33b78c13358" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/tnt/StepDefinitions/Hook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/tnt/Util/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/tnt/Pages/PageBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/tnt/Pages/PageBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/tnt/TestRunner/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/tnt/TestRunner/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/tnt/Util/Hooks.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/tnt/features/Tarieven&amp;Tijden.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/tnt/features/Tarieven&amp;Tijden.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/tnt/Pages/PageBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/tnt/Pages/PageBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/tnt/TestRunner/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/tnt/TestRunner/Runner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/tnt/Util/Hooks.class" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,20 +37,23 @@
     <session id="-2010461015">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="23" />
-          <entry key="feature" value="5" />
+          <entry key="feature" value="6" />
+          <entry key="gitignore" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="31" />
+          <entry key="java" value="37" />
+          <entry key="md" value="1" />
           <entry key="xml" value="2" />
           <entry key="xml___jb_tmp___" value="1" />
         </counts>
@@ -44,24 +61,29 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="23" />
-          <entry key="Cucumber" value="5" />
+          <entry key="Cucumber" value="6" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="31" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="JAVA" value="37" />
+          <entry key="Markdown" value="1" />
+          <entry key="PLAIN_TEXT" value="2" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="feature" value="2905" />
-          <entry key="java" value="6292" />
+          <entry key="feature" value="2985" />
+          <entry key="gitignore" value="31" />
+          <entry key="java" value="6895" />
+          <entry key="md" value="758" />
           <entry key="xml" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Cucumber" value="2905" />
-          <entry key="JAVA" value="6292" />
+          <entry key="Cucumber" value="2985" />
+          <entry key="JAVA" value="6895" />
+          <entry key="Markdown" value="758" />
+          <entry key="PLAIN_TEXT" value="31" />
           <entry key="XML" value="9" />
         </counts>
       </usages-collector>
@@ -69,11 +91,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/tnt/Pages/PageBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="135" column="57" selection-start-line="135" selection-start-column="57" selection-end-line="135" selection-end-column="57" />
+            <state relative-caret-position="1360">
+              <caret line="89" column="5" selection-start-line="89" selection-start-column="5" selection-end-line="89" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,10 +104,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/tnt/Pages/Components/TrackAndTraceComponent.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/tnt/Util/Driver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="47" column="64" selection-start-line="47" selection-start-column="64" selection-end-line="47" selection-end-column="64" />
+            <state relative-caret-position="51">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,10 +116,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/tnt/StepDefinitions/TarievenAndTijdenSteps.java">
+        <entry file="file://$PROJECT_DIR$/readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="68">
+                <caret line="4" selection-start-line="4" selection-end-line="4" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="75" column="12" selection-start-line="75" selection-start-column="12" selection-end-line="75" selection-end-column="12" />
+            <state relative-caret-position="34">
+              <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/tnt/StepDefinitions/Hook.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -108,12 +151,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/tnt/Pages/Components/TarievenAndTijdenComponent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2142">
-              <caret line="138" column="5" selection-start-line="138" selection-start-column="5" selection-end-line="138" selection-end-column="5" />
+            <state relative-caret-position="1904">
+              <caret line="133" column="34" selection-start-line="133" selection-start-column="34" selection-end-line="133" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#4656#4657#0" expanded="true" />
-                <element signature="e#4720#4721#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/tnt/Pages/Components/TrackAndTraceComponent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="697">
+              <caret line="47" column="64" selection-start-line="47" selection-start-column="64" selection-end-line="47" selection-end-column="64" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -122,20 +175,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/tnt/features/Tarieven&amp;Tijden.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-323">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="17">
+              <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/tnt/Util/Hooks.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/tnt/TestRunner/Runner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="102">
+              <caret line="8" column="51" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -149,6 +199,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -157,16 +210,20 @@
         <option value="$PROJECT_DIR$/src/test/java/com/tnt/Pages/Components/ShipmentQuoteWidget.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/tnt/StepDefinitions/MainMenuSteps.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/tnt/StepDefinitions/TarievenAndTijdenSteps.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/tnt/Pages/Components/TarievenAndTijdenComponent.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/tnt/StepDefinitions/HeaderMenuSteps.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/tnt/Util/Hooks.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/tnt/TestRunner/Runner.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/tnt/StepDefinitions/TrackAndTraceSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/tnt/StepDefinitions/TarievenAndTijdenSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/tnt/Util/Hooks.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/tnt/Pages/Components/TrackAndTraceComponent.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/tnt/Pages/Components/TarievenAndTijdenComponent.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/tnt/Util/Driver.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/tnt/features/HomePage.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/com/tnt/TestRunner/Runner.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/tnt/features/Tarieven&amp;Tijden.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/com/tnt/StepDefinitions/Hook.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/tnt/Pages/PageBase.java" />
+        <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -176,7 +233,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1940" />
@@ -199,12 +256,16 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -254,54 +315,12 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="tnt" type="462c0819:PsiDirectoryNode" />
-              <item name="Pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tnt-test-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tnt-test-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tnt" type="462c0819:PsiDirectoryNode" />
-              <item name="Pages" type="462c0819:PsiDirectoryNode" />
-              <item name="Components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tnt-test-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tnt-test-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tnt" type="462c0819:PsiDirectoryNode" />
-              <item name="StepDefinitions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tnt-test-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tnt-test-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tnt" type="462c0819:PsiDirectoryNode" />
               <item name="TestRunner" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tnt-test-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tnt-test-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tnt" type="462c0819:PsiDirectoryNode" />
-              <item name="Util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tnt-test-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -310,11 +329,17 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541857382695" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541895207105" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.tnt" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -364,15 +389,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: As a user I am able to select another country" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: As a user I want to check TNT services" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/com/tnt/features/Tarieven&amp;Tijden.feature" />
       <option name="GLUE" value="com.tnt.StepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="tnt-test-project" />
-      <option name="NAME_FILTER" value="^As a user I am able to select another country$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^As a user I am able to select another country$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: As a user I am able to select another country" />
+      <option name="NAME_FILTER" value="^As a user I want to check TNT services$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^As a user I want to check TNT services$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: As a user I want to check TNT services" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -383,15 +408,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: As a user I want to create myTNT account" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: As a user I want to get a quote for an envelope" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/com/tnt/features/Tarieven&amp;Tijden.feature" />
       <option name="GLUE" value="com.tnt.StepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="tnt-test-project" />
-      <option name="NAME_FILTER" value="^As a user I want to create myTNT account$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^As a user I want to create myTNT account$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: As a user I want to create myTNT account" />
+      <option name="NAME_FILTER" value="^As a user I want to get a quote for an envelope$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^As a user I want to get a quote for an envelope$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: As a user I want to get a quote for an envelope" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -423,18 +448,18 @@
     </configuration>
     <list>
       <item itemvalue="Cucumber java.Scenario: As a user I want to login to myTNT account" />
-      <item itemvalue="Cucumber java.Scenario: As a user I want to create myTNT account" />
-      <item itemvalue="Cucumber java.Scenario: As a user I am able to select another country" />
       <item itemvalue="Cucumber java.Feature: Tarieven&amp;Tijden" />
       <item itemvalue="Cucumber java.Feature: HomePage" />
+      <item itemvalue="Cucumber java.Scenario: As a user I want to get a quote for an envelope" />
+      <item itemvalue="Cucumber java.Scenario: As a user I want to check TNT services" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Cucumber java.Feature: Tarieven&amp;Tijden" />
         <item itemvalue="Cucumber java.Feature: HomePage" />
+        <item itemvalue="Cucumber java.Scenario: As a user I want to check TNT services" />
+        <item itemvalue="Cucumber java.Scenario: As a user I want to get a quote for an envelope" />
         <item itemvalue="Cucumber java.Scenario: As a user I want to login to myTNT account" />
-        <item itemvalue="Cucumber java.Scenario: As a user I want to create myTNT account" />
-        <item itemvalue="Cucumber java.Scenario: As a user I am able to select another country" />
       </list>
     </recent_temporary>
   </component>
@@ -453,44 +478,45 @@
       <workItem from="1541767323901" duration="10369000" />
       <workItem from="1541784325385" duration="28006000" />
       <workItem from="1541835764832" duration="5044000" />
-      <workItem from="1541840879576" duration="9232000" />
+      <workItem from="1541840879576" duration="19893000" />
+      <workItem from="1541893450201" duration="1497000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Scenario__As_a_user_I_want_to_create_myTNT_account - 2018.11.10 at 14h 08m 45s.xml">
-      <configuration name="Scenario: As a user I want to create myTNT account" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__As_a_user_I_want_to_get_a_quote_for_an_envelope - 2018.11.10 at 23h 48m 33s.xml">
+      <configuration name="Scenario: As a user I want to get a quote for an envelope" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__As_a_user_I_want_to_create_myTNT_account - 2018.11.10 at 14h 10m 06s.xml">
-      <configuration name="Scenario: As a user I want to create myTNT account" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__As_a_user_I_want_to_get_a_quote_for_an_envelope - 2018.11.10 at 23h 49m 04s.xml">
+      <configuration name="Scenario: As a user I want to get a quote for an envelope" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__As_a_user_I_want_to_create_myTNT_account - 2018.11.10 at 14h 11m 16s.xml">
-      <configuration name="Scenario: As a user I want to create myTNT account" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__As_a_user_I_want_to_get_a_quote_for_an_envelope - 2018.11.10 at 23h 49m 53s.xml">
+      <configuration name="Scenario: As a user I want to get a quote for an envelope" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__As_a_user_I_want_to_create_myTNT_account - 2018.11.10 at 14h 18m 13s.xml">
-      <configuration name="Scenario: As a user I want to create myTNT account" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__As_a_user_I_want_to_login_to_myTNT_account - 2018.11.10 at 14h 18m 36s.xml">
-      <configuration name="Scenario: As a user I want to login to myTNT account" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__As_a_user_I_want_to_login_to_myTNT_account - 2018.11.10 at 14h 20m 25s.xml">
-      <configuration name="Scenario: As a user I want to login to myTNT account" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__As_a_user_I_want_to_login_to_myTNT_account - 2018.11.10 at 14h 24m 13s.xml">
-      <configuration name="Scenario: As a user I want to login to myTNT account" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__Tarieven&amp;Tijden - 2018.11.10 at 14h 31m 09s.xml">
+    <history-entry file="Feature__Tarieven&amp;Tijden - 2018.11.10 at 23h 52m 21s.xml">
       <configuration name="Feature: Tarieven&amp;Tijden" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__HomePage - 2018.11.10 at 14h 37m 58s.xml">
+    <history-entry file="Scenario__As_a_user_I_want_to_check_TNT_services - 2018.11.10 at 23h 53m 52s.xml">
+      <configuration name="Scenario: As a user I want to check TNT services" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__HomePage - 2018.11.10 at 23h 57m 08s.xml">
       <configuration name="Feature: HomePage" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__Tarieven&amp;Tijden - 2018.11.10 at 14h 41m 22s.xml">
+    <history-entry file="Feature__HomePage - 2018.11.11 at 00h 03m 25s.xml">
+      <configuration name="Feature: HomePage" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__HomePage - 2018.11.11 at 00h 03m 50s.xml">
+      <configuration name="Feature: HomePage" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__Tarieven&amp;Tijden - 2018.11.11 at 00h 14m 31s.xml">
+      <configuration name="Feature: Tarieven&amp;Tijden" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__Tarieven&amp;Tijden - 2018.11.11 at 00h 17m 54s.xml">
       <configuration name="Feature: Tarieven&amp;Tijden" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62139000" />
+    <option name="totallyTimeSpent" value="74297000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -503,9 +529,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24144869" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24480215" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -513,15 +538,15 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32956153" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32956153" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.33380482" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32956153" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32956153" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32956153" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -536,7 +561,7 @@
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32997987" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24144869" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24144869" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -546,7 +571,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32956153" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.33380482" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.33380482" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
@@ -554,7 +579,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32956153" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.32956153" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32956153" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -581,6 +606,12 @@
           <line>120</line>
           <properties />
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/tnt/Util/Hooks.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -713,10 +744,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/tnt/StepDefinitions/MainMenuSteps.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/tnt/Util/Hooks.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/tnt/StepDefinitions/HeaderMenuSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="-1498">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -733,30 +764,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/tnt/Util/Hooks.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/tnt/StepDefinitions/TarievenAndTijdenSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="75" column="12" selection-start-line="75" selection-start-column="12" selection-end-line="75" selection-end-column="12" />
+        <state relative-caret-position="-444">
+          <caret line="12" column="71" selection-start-line="12" selection-start-column="71" selection-end-line="12" selection-end-column="71" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/tnt/StepDefinitions/HeaderMenuSteps.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/tnt/features/HomePage.feature" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/tnt/Pages/PageBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1498">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="1360">
+          <caret line="89" column="5" selection-start-line="89" selection-start-column="5" selection-end-line="89" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/tnt/Pages/Components/TrackAndTraceComponent.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/tnt/Util/Driver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="47" column="64" selection-start-line="47" selection-start-column="64" selection-end-line="47" selection-end-column="64" />
+        <state relative-caret-position="51">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/tnt/StepDefinitions/Hook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -765,44 +808,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/tnt/Pages/Components/TarievenAndTijdenComponent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2142">
-          <caret line="138" column="5" selection-start-line="138" selection-start-column="5" selection-end-line="138" selection-end-column="5" />
+        <state relative-caret-position="1904">
+          <caret line="133" column="34" selection-start-line="133" selection-start-column="34" selection-end-line="133" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4656#4657#0" expanded="true" />
-            <element signature="e#4720#4721#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/tnt/TestRunner/Runner.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/tnt/Pages/Components/TrackAndTraceComponent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+        <state relative-caret-position="697">
+          <caret line="47" column="64" selection-start-line="47" selection-start-column="64" selection-end-line="47" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/tnt/features/HomePage.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="41" lean-forward="true" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="68">
+            <caret line="4" selection-start-line="4" selection-end-line="4" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/tnt/features/Tarieven&amp;Tijden.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-323">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="17">
+          <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/tnt/Pages/PageBase.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/tnt/TestRunner/Runner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="135" column="57" selection-start-line="135" selection-start-column="57" selection-end-line="135" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="102">
+          <caret line="8" column="51" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
         </state>
       </provider>
     </entry>

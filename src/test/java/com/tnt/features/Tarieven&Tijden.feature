@@ -1,5 +1,5 @@
 @Tnt @e2e @Tarieven&Tijden
-  Feature: Checking Rates and times
+  Feature: TNT E2E test scenarios
 
     Scenario: As a user I want to get a quote for an envelope
       Given User enters From address "Amsterdam"

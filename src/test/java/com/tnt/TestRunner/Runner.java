@@ -9,8 +9,7 @@ import cucumber.api.junit.Cucumber;
         features = "src/test/java/com/tnt/features/",
         format = { "pretty","html: cucumber-html-reports",
                 "json: cucumber-html-reports/cucumber.json" },
-        glue = {"com.tnt.StepDefinitions",
-                "com.tnt.Util"
+        glue = {"com.tnt.StepDefinitions"
                 })
 public class Runner
 {

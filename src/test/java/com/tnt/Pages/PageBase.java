@@ -1,11 +1,10 @@
 package com.tnt.Pages;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
+import com.tnt.Util.Driver;
 import org.junit.Assert;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
@@ -25,7 +24,7 @@ public class PageBase {
     @FindBy(how= How.LINK_TEXT, using="Contact")
     private WebElement contactButton;
 
-    @FindBy(how= How.LINK_TEXT, using=" Kies uw service")
+    @FindBy(how= How.LINK_TEXT, using="Kies uw service")
     private WebElement servicesButton;
 
     @FindBy(how=How.LINK_TEXT, using="0800 1234")
@@ -82,9 +81,9 @@ public class PageBase {
     @FindBy(how= How.CSS, using="[alt='email sent']+p")
     private WebElement emailSentMessage;
 
+
     public PageBase(){
-        WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver();
+        driver = Driver.driver;
         driver.navigate().to(baseUrl);
         PageFactory.initElements(driver, this);
         acceptCookiePolicy();
@@ -133,7 +132,7 @@ public class PageBase {
     }
 
     public void clickKiesUwServicesButton(){
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, timeoutInSeconds);
         wait.until(ExpectedConditions.visibilityOf(servicesButton));
         servicesButton.click();
     }
